@@ -9,6 +9,8 @@
     <script src="node_modules/react/dist/react.js"></script>
     <script src="node_modules/react-dom/dist/react-dom.js"></script>
     <script>
+        var ce = React.createElement;
+
         var MyTitle = function () {
         return (
           React.createElement('div', null,
@@ -19,10 +21,10 @@
 
       var MyFirstComponent = function () {
         return (
-          React.createElement('div', null,
-            React.createElement(MyTitle, null),
-            React.createElement(MyTitle, null),
-            React.createElement(MyTitle, null)
+          ce('div', null,
+            ce(MyTitle, null),
+            ce(MyTitle, null),
+            ce(MyTitle, null)
           )
         );
       };
