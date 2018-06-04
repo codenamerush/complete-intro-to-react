@@ -13,8 +13,8 @@ const MyFirstComponent = function() {
     { id: 'my-first-component' },
     ce(MyTitle, { title: 'Game of Thrones', color: 'YellowGreen' }),
     ce(MyTitle, { title: 'Stranger Things', color: 'GreenYellow' }),
-    ce(MyTitle, { title: 'Rick and Morty', color: 'LimeGreen' }),
-    ce(MyTitle, { title: 'Silicon Valley', color: 'peru' })
+    ce(MyTitle, { title: 'Sense8', color: 'LimeGreen' }),
+    ce(MyTitle, { title: 'iZombie', color: 'peru' })
   );
 };
 
